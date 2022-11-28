@@ -1,14 +1,26 @@
 {
   "files": {
-    "main.css": "/cs1300-development/static/css/main.073c9b0a.css",
-    "main.js": "/cs1300-development/static/js/main.28a46d68.js",
+    "main.css": "/cs1300-development/static/css/main.040201be.css",
+    "main.js": "/cs1300-development/static/js/main.302bfb3f.js",
+    "static/media/Lytton Estate Rosé.png": "/cs1300-development/static/media/Lytton Estate Rosé.d1805d29383c05d1415d.png",
+    "static/media/Gruaud Larose.png": "/cs1300-development/static/media/Gruaud Larose.48e6f837145bc938bf1b.png",
+    "static/media/Las Perdices.png": "/cs1300-development/static/media/Las Perdices.3ded3542a84294401d0e.png",
+    "static/media/Tomero.png": "/cs1300-development/static/media/Tomero.12d081a30dfc80e8d32f.png",
+    "static/media/Sinskey Pinot Noir.png": "/cs1300-development/static/media/Sinskey Pinot Noir.cffa07f6246932d14b93.png",
+    "static/media/Vidiano.png": "/cs1300-development/static/media/Vidiano.c14de0dee401e8a22fae.png",
+    "static/media/Ladoix Blanc.png": "/cs1300-development/static/media/Ladoix Blanc.d15bc8bb12a557b53f15.png",
+    "static/media/Champagne Sanger.png": "/cs1300-development/static/media/Champagne Sanger.faa37355e6a49ae8516d.png",
+    "static/media/Methea.png": "/cs1300-development/static/media/Methea.5007fc8e8e2904c6de96.png",
+    "static/media/L'Ermitage.png": "/cs1300-development/static/media/L'Ermitage.259683f3348f71cc659b.png",
+    "static/media/Secret Des Terres.png": "/cs1300-development/static/media/Secret Des Terres.3efb989330dbacf23819.png",
+    "static/media/Le Vigneron Grec.png": "/cs1300-development/static/media/Le Vigneron Grec.5d876c62928b12f073d0.png",
     "static/media/logo.svg": "/cs1300-development/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cs1300-development/index.html",
-    "main.073c9b0a.css.map": "/cs1300-development/static/css/main.073c9b0a.css.map",
-    "main.28a46d68.js.map": "/cs1300-development/static/js/main.28a46d68.js.map"
+    "main.040201be.css.map": "/cs1300-development/static/css/main.040201be.css.map",
+    "main.302bfb3f.js.map": "/cs1300-development/static/js/main.302bfb3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.28a46d68.js"
+    "static/css/main.040201be.css",
+    "static/js/main.302bfb3f.js"
   ]
 }
