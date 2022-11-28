@@ -17,7 +17,7 @@ const DisplayList = (props) => {
               src={require("./assets/" + item.name + ".png")}
             />
             <Card.Body>
-              <div className="product-content">
+              <div>
                 <Card.Title className="wine-title">{item.name}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">
                   {item.type}{" "}
