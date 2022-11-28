@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cs1300-development/static/css/main.040201be.css",
-    "main.js": "/cs1300-development/static/js/main.302bfb3f.js",
+    "main.js": "/cs1300-development/static/js/main.647954ce.js",
     "static/media/Lytton Estate Rosé.png": "/cs1300-development/static/media/Lytton Estate Rosé.d1805d29383c05d1415d.png",
     "static/media/Gruaud Larose.png": "/cs1300-development/static/media/Gruaud Larose.48e6f837145bc938bf1b.png",
     "static/media/Las Perdices.png": "/cs1300-development/static/media/Las Perdices.3ded3542a84294401d0e.png",
@@ -17,10 +17,10 @@
     "static/media/logo.svg": "/cs1300-development/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cs1300-development/index.html",
     "main.040201be.css.map": "/cs1300-development/static/css/main.040201be.css.map",
-    "main.302bfb3f.js.map": "/cs1300-development/static/js/main.302bfb3f.js.map"
+    "main.647954ce.js.map": "/cs1300-development/static/js/main.647954ce.js.map"
   },
   "entrypoints": [
     "static/css/main.040201be.css",
-    "static/js/main.302bfb3f.js"
+    "static/js/main.647954ce.js"
   ]
 }
