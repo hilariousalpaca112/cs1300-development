@@ -13,7 +13,7 @@ const DisplayList = (props) => {
         list.map((item) => (
           <Card className="item-card" key={item.id}>
             <Card.Img 
-              alt= "picture of" {...item.name}
+              alt= "picture of wine bottle"
               className="img"
               src={require("./assets/" + item.name + ".png") }
             />
