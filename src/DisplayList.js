@@ -15,7 +15,7 @@ const DisplayList = (props) => {
             <Card.Img 
               alt= "picture of wine bottle"
               className="img"
-              src={require("./assets/" + item.name + ".png") }
+              src={require("./images/" + item.name + ".png") }
             />
             <Card.Body>
               <div>
@@ -31,9 +31,7 @@ const DisplayList = (props) => {
 
               <div className="d-flex justify-content-center mt-2">
                 <Button
-                  
-                  size="sm"
-                  
+                  size="sm"       
                   onClick={() => onAdd(item)}
                 >
                   Add to cart

@@ -45,7 +45,7 @@ const FilteredList = (props) => {
     setRegion(region);
   };
 
-  const matchesFilter = (item) => {
+  const filterByType = (item) => {
     if (type === "All") { // if filter is all 
       return true;
     } 
@@ -55,7 +55,7 @@ const FilteredList = (props) => {
 
   };
 
-  const matchesFilterRegion = (item) => {
+  const filterByRegion = (item) => {
     if (region === "All") {
       return true;
     } 
@@ -121,7 +121,7 @@ const FilteredList = (props) => {
     </div>
     <div className="item-list">
       <DisplayList
-        list={wineList.filter(matchesFilter).filter(matchesFilterRegion)}
+        list={wineList.filter(filterByType).filter(filterByRegion)}
         onAdd={onAdd}
       /></div>
       </div>
