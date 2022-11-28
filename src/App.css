@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+
+*{
+  background-color: lavender;
+}
+.cardContainer {
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.img{
+  height: 12em;
+  object-fit: cover;
+}
+.card {
+  padding: 10px;
+  background-color: lavender;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item-card {
+  width: 12rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-text {
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wine-title{
+  white-space: nowrap;
+  margin-right: 4%;
+}
+.title {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.shopping-cart {
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.card-body{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2%;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1{
+  color: blue;
+}
+
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:active {
+ 
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.empty-div{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.price{
+  overflow: hidden;
+  white-space: nowrap;
+}
+.filters{
+  border-style: solid;
+  padding: 2%;
+  height: 55%;
 }
