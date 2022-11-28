@@ -12,9 +12,10 @@ const DisplayList = (props) => {
       {list && list.length > 0 ? (
         list.map((item) => (
           <Card className="item-card" key={item.id}>
-            <Card.Img
+            <Card.Img 
+              alt= "picture of" {...item.name}
               className="img"
-              src={require("./assets/" + item.name + ".png")}
+              src={require("./assets/" + item.name + ".png") }
             />
             <Card.Body>
               <div>
