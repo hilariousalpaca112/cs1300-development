@@ -6,6 +6,8 @@ import Card from "react-bootstrap/Card";
 import { Button } from "react-bootstrap";
 import './App.css';
 
+
+// data list
 const productList = [
   { id: 0, name: "Gruaud Larose", type: "Red", region: "France", price: 35},
   { id: 1, name: "Las Perdices", type: "Red", region: "Argentina", price: 40},
@@ -26,13 +28,16 @@ const productList = [
 
 
 const App = () => {
+
+
   const [cartItems, setCartItems] = React.useState([]);
 
-  const handleAddCardItem = (cardItem) => {
-    setCartItems(cartItems.concat([{ ...cardItem, id: Date.now() }]));
+  // functions to handle adding and removing items to cart
+  const handleAddWine = (wineBottle) => {
+    setCartItems(cartItems.concat([{ ...wineBottle, id: Date.now() }]));
   };
 
-  const handleRemoveCardItem = (id) => {
+  const handleRemoveWine = (id) => {
     setCartItems(cartItems.filter((cartItem) => cartItem.id !== id));
   };
 
@@ -41,10 +46,10 @@ const App = () => {
     <div className="container-fluid d-flex py-2">
       <div className='header'>
       <h1>Online Wine Shop</h1>
-      <FilteredList list={productList} onAdd={handleAddCardItem} />
+      <FilteredList list={productList} onAdd={handleAddWine} />
       </div>
       <div>
-        <ShoppingCart cartItems={cartItems} onRemove={handleRemoveCardItem} />
+        <ShoppingCart cartItems={cartItems} onRemove={handleRemoveWine} />
       </div>
     </div>
   );
