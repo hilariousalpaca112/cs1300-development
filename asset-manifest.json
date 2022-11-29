@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cs1300-development/static/css/main.040201be.css",
-    "main.js": "/cs1300-development/static/js/main.a9b62ca7.js",
+    "main.css": "/cs1300-development/static/css/main.c03f84c8.css",
+    "main.js": "/cs1300-development/static/js/main.1455cb15.js",
     "static/media/Lytton Estate Rosé.png": "/cs1300-development/static/media/Lytton Estate Rosé.d1805d29383c05d1415d.png",
     "static/media/Gruaud Larose.png": "/cs1300-development/static/media/Gruaud Larose.48e6f837145bc938bf1b.png",
     "static/media/Las Perdices.png": "/cs1300-development/static/media/Las Perdices.3ded3542a84294401d0e.png",
@@ -16,11 +16,11 @@
     "static/media/Le Vigneron Grec.png": "/cs1300-development/static/media/Le Vigneron Grec.5d876c62928b12f073d0.png",
     "static/media/logo.svg": "/cs1300-development/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cs1300-development/index.html",
-    "main.040201be.css.map": "/cs1300-development/static/css/main.040201be.css.map",
-    "main.a9b62ca7.js.map": "/cs1300-development/static/js/main.a9b62ca7.js.map"
+    "main.c03f84c8.css.map": "/cs1300-development/static/css/main.c03f84c8.css.map",
+    "main.1455cb15.js.map": "/cs1300-development/static/js/main.1455cb15.js.map"
   },
   "entrypoints": [
-    "static/css/main.040201be.css",
-    "static/js/main.a9b62ca7.js"
+    "static/css/main.c03f84c8.css",
+    "static/js/main.1455cb15.js"
   ]
 }
