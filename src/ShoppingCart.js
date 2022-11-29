@@ -24,7 +24,6 @@ const ShoppingCart = (props) => {
                 <div className="col-2 d-flex">
                   <Button
                     variant="danger"
-                    size="sm"
                     onClick={() => onRemove(cartItem.id)}
                   >
                     Remove
@@ -36,7 +35,7 @@ const ShoppingCart = (props) => {
             <div>Nothing in cart</div>
           )}
           <div className="row mt-5 pt-5">
-            <div className="col-6">Total:</div>
+            <div className="col-6">Total Cost:</div>
             <div className="col-4">${cost}.00</div>
           </div>
         </div>

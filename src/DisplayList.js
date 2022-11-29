@@ -29,7 +29,7 @@ const DisplayList = (props) => {
                 <Card.Text>${item.price}.00</Card.Text>
               </div>
 
-              <div className="d-flex justify-content-center mt-2">
+              <div className="add-item">
                 <Button
                   size="sm"       
                   onClick={() => onAdd(item)}

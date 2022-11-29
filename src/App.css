@@ -17,7 +17,11 @@
   padding: 10px;
   background-color: lavender;
 }
-
+.add-item{
+  display: flex;
+  justify-content: flex-start;
+  padding: 2%;
+}
 .item-card {
   width: 12rem;
   margin-right: 10px;
@@ -39,7 +43,10 @@
 
 .shopping-cart {
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 85px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .card-body{
@@ -83,6 +90,10 @@ h1{
 }
 .filters{
   border-style: solid;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   padding: 2%;
   height: 55%;
+  margin-top: 40px;
 }

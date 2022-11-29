@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import React from "react";
 import FilteredList from "./FilteredList";
 import ShoppingCart from "./ShoppingCart";
+import Card from "react-bootstrap/Card";
+import { Button } from "react-bootstrap";
 import './App.css';
 
 const productList = [
@@ -20,6 +22,8 @@ const productList = [
 
 
 ];
+
+
 
 const App = () => {
   const [cartItems, setCartItems] = React.useState([]);
