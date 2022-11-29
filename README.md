@@ -36,4 +36,4 @@ State changes are triggered by the user in several different ways. Each time the
 
 ### References
 
-React Bootstrap was used for the wine cards, the nav component for the filters, and the card for the shopping cart.
+React Bootstrap was used for the wine cards and the nav component for the filters.
